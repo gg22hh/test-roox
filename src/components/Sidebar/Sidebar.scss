@@ -1,0 +1,19 @@
+.sidebar {
+    height: 100vh;
+    background-color: #bdbdbd;
+    padding: 40px 20px;
+    position: fixed;
+    width: 300px;
+    text-align: center;
+    &__title {
+        font-size: 35px;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+    &__buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+}

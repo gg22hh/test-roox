@@ -1,7 +1,13 @@
 import React from "react";
+import { Main } from "./pages/Main/Main";
+import "./App.scss";
 
 function App() {
-    return <div>Start</div>;
+    return (
+        <div>
+            <Main />
+        </div>
+    );
 }
 
 export default App;

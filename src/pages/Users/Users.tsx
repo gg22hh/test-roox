@@ -22,7 +22,7 @@ export const Users: FC<usersProps> = ({ usersList, isLoading }) => {
     });
     return (
         <div className="users">
-            <h1 className="users__title">Список пользователей</h1>
+            <h1 className="users__title title">Список пользователей</h1>
             {isLoading ? (
                 <img src={loading} alt="Loading..." />
             ) : (

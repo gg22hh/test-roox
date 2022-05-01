@@ -1,0 +1,53 @@
+.user {
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &-button {
+            padding: 10px 20px;
+        }
+    }
+    &__card {
+        padding: 25px 15px;
+        border: 1px solid #e2dada;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin-bottom: 15px;
+        &-item {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            & input {
+                max-width: 310px;
+                width: 100%;
+                border: 1px solid #d8d8d8;
+                border-radius: 5px;
+                padding: 5px 10px;
+                color: gray;
+                outline: none;
+            }
+            & textarea {
+                border: 1px solid #d8d8d8;
+                border-radius: 5px;
+                padding: 5px 10px;
+                color: gray;
+                outline: none;
+            }
+        }
+    }
+    &__button {
+        background-color: #afafaf;
+        padding: 10px 20px;
+        color: white;
+        margin-left: auto;
+        border-radius: 8px;
+        border: 1px solid #afafaf;
+        transition: all 0.3s;
+        &:hover {
+            background-color: #fff;
+            color: #afafaf;
+        }
+    }
+}

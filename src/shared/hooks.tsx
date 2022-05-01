@@ -9,7 +9,7 @@ export const useGetData = () => {
         setIsLoading(true);
         const getUsers = async () => {
             const response = await fetch(
-                "https://jsonplaceholder.typicode.com/users"
+                "https://jsonplaceholder.typicode.com/users/"
             );
             if (response.ok) {
                 const json = await response.json();
@@ -23,4 +23,22 @@ export const useGetData = () => {
     }, []);
 
     return { usersList, isLoading, setUsersList };
+};
+
+export const useGetSingleUser = (id: number) => {
+    const [user, setUser] = useState<IUser>();
+    const getUser = async () => {
+        const response = await fetch(
+            "https://jsonplaceholder.typicode.com/users/" + id
+        );
+        if (response.ok) {
+            const json = await response.json();
+            setUser(json);
+        } else {
+            alert("error");
+        }
+    };
+    getUser();
+
+    return [user, setUser];
 };

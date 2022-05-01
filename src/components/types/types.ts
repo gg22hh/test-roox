@@ -15,4 +15,17 @@ export interface IUser {
     email: string;
     address: IAddress;
     company: ICompany;
+    phone: string;
+    website: string;
+}
+
+export interface IUpdatedUser {
+    name: string;
+    username: string;
+    email: string;
+    street: string;
+    city: string;
+    zipcode: string;
+    phone: string;
+    website: string;
 }

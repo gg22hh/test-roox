@@ -1,6 +1,8 @@
-import React, { FC } from "react";
+import React, { FC, useState } from "react";
 import { Sidebar } from "../../components/Sidebar/Sidebar";
+import { IUser } from "../../components/types/types";
 import { useGetData } from "../../shared/hooks";
+import { User } from "../User/User";
 import { Users } from "../Users/Users";
 import "./Main.scss";
 
@@ -22,7 +24,6 @@ export const Main: FC = () => {
             )
         );
     };
-
     return (
         <div className="main">
             <Sidebar
@@ -30,7 +31,8 @@ export const Main: FC = () => {
                 handleCompanyFilter={handleCompanyFilter}
             />
             <div className="content">
-                <Users usersList={usersList} isLoading={isLoading} />
+                {/* <Users usersList={usersList} isLoading={isLoading} /> */}
+                <User user={usersList[0]} />
             </div>
         </div>
     );

@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { IUser } from "../components/types/types";
+import { USERS_URL } from "./constans";
 
 export const useGetData = () => {
     const [usersList, setUsersList] = useState<IUser[]>([]);
@@ -8,9 +9,7 @@ export const useGetData = () => {
     useEffect(() => {
         setIsLoading(true);
         const getUsers = async () => {
-            const response = await fetch(
-                "https://jsonplaceholder.typicode.com/users/"
-            );
+            const response = await fetch(USERS_URL);
             if (response.ok) {
                 const json = await response.json();
                 setUsersList(json);

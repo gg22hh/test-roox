@@ -14,6 +14,7 @@ export const Users: FC<usersProps> = ({ usersList, isLoading }) => {
         return (
             <UsersItem
                 key={user.id}
+                id={user.id}
                 name={user.name}
                 city={user.address.city}
                 company={user.company.name}

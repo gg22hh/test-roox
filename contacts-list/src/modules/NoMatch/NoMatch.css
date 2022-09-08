@@ -1,0 +1,24 @@
+.noMatch {
+  width: 250px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -65%);
+}
+.noMatch p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.noMatch button {
+  padding: 4px 15px;
+  border: 1px solid black;
+  background: transparent;
+  transition: all 0.3s;
+  font-size: 16px;
+  cursor: pointer;
+}
+.noMatch button:hover {
+  color: white;
+  background-color: black;
+}

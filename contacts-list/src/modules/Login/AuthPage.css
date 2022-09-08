@@ -1,0 +1,32 @@
+.form {
+  position: absolute;
+  top: 200px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  width: 300px;
+}
+
+.form__toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  gap: 15px;
+}
+
+.form__toggle button {
+  font-size: 18px;
+  padding: 4px;
+  border: none;
+  border-bottom: 1px solid transparent;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.form__toggle button:hover {
+  border-bottom: 1px solid #000;
+}
+.form__toggle button.active {
+  border-bottom: 1px solid #000;
+}

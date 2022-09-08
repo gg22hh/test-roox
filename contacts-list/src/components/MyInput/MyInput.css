@@ -1,0 +1,15 @@
+.myInput input {
+  padding: 7px 15px;
+  border: 1px solid black;
+  outline: unset;
+  font-size: 16px;
+}
+.myInput {
+  position: relative;
+}
+.myInput ul {
+  position: absolute;
+  top: 50%;
+  right: -40%;
+  transform: translate(-50%, -50%);
+}

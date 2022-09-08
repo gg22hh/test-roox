@@ -1,0 +1,131 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "login": "g322h",
+      "password": "123456789",
+      "contacts": [
+        {
+          "id": 1,
+          "name": "Мама",
+          "phone": "89634155780"
+        },
+        {
+          "id": 2,
+          "name": "Папа",
+          "phone": "89634155780"
+        },
+        {
+          "id": 3,
+          "name": "Брат",
+          "phone": "89634155780"
+        }
+      ]
+    },
+    {
+      "name": "Гусен",
+      "login": "gusen02",
+      "password": "Ca_22222",
+      "contacts": [],
+      "id": 2
+    },
+    {
+      "name": "о",
+      "login": "ьлдж",
+      "password": "щтфв",
+      "contacts": [],
+      "id": 3
+    },
+    {
+      "name": "дли",
+      "login": "шитд",
+      "password": "лои",
+      "contacts": [],
+      "id": 4
+    },
+    {
+      "name": "оиуф",
+      "login": "шртфуа",
+      "password": "шилтфаы",
+      "contacts": [],
+      "id": 5
+    },
+    {
+      "name": "лфытв",
+      "login": "шщта",
+      "password": "шщт авф",
+      "contacts": [],
+      "id": 6
+    },
+    {
+      "name": "ф",
+      "login": "тлд",
+      "password": "шщт",
+      "contacts": [],
+      "id": 7
+    },
+    {
+      "name": "ь",
+      "login": "длт",
+      "password": "щтдл",
+      "contacts": [],
+      "id": 8
+    },
+    {
+      "name": "ь",
+      "login": "длт",
+      "password": "щтл",
+      "contacts": [],
+      "id": 9
+    },
+    {
+      "name": "о",
+      "login": "лть",
+      "password": "шщт",
+      "contacts": [],
+      "id": 10
+    },
+    {
+      "name": "д",
+      "login": "лт",
+      "password": "щшт",
+      "contacts": [],
+      "id": 11
+    },
+    {
+      "name": "лои",
+      "login": "лои",
+      "password": "лои",
+      "contacts": [],
+      "id": 12
+    },
+    {
+      "name": "от",
+      "login": "лот",
+      "password": "лдт о",
+      "contacts": [],
+      "id": 13
+    },
+    {
+      "name": "флоыт",
+      "login": "от",
+      "password": "шщт",
+      "contacts": [],
+      "id": 14
+    },
+    {
+      "name": "лдт",
+      "login": "длтд",
+      "password": "длтдлот",
+      "contacts": [],
+      "id": 15
+    },
+    {
+      "name": "ило",
+      "login": "g322h",
+      "password": "уыа",
+      "contacts": [],
+      "id": 16
+    }
+  ]
+}

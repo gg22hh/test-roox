@@ -1,0 +1,11 @@
+.register__title {
+  font-size: 35px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.register__inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 20px;
+}
